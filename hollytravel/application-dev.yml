@@ -13,6 +13,6 @@ feign:
     config:
       default:
         # Feign客户端连接提供者的超时时限，网络环境起决定作用
-        connectTimeout: 5000
+        connectTimeout: 6000
         # Feign客户端从调用提供者到获取返回结果，这个间隔的超时时限，提供者运算时间起决定作用
         readTimeout: 10000
